@@ -6,7 +6,9 @@ Hi! I'm Munaf Hajir.
 # Configuration
 
 pip install virtualenv
+
 cd app
+
 virtualenv env
 
 In Windows:
