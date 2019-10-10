@@ -16,4 +16,5 @@ env\Scripts\activate.bat
 # Installation
 
 cd app
+
 pip install -r requirements.txt
