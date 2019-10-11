@@ -17,10 +17,10 @@
         <div class="row" style="margin-top: 40px">
             <div class="col-sm-12">
                 <form method="POST">
-                   {% for i in range(1,standard) %}
+                   {% for i in range(0,standard) %}
                      <div class="col-sm-3">
                       <label >Standard </label>
-                      <input type="text" name="Standard{{i}}" class="form-control" id="std">
+                      <input type="text" name="Standard{{i}}" value = "{{i+1}}" class="form-control" id="std">
                     </div>
                       <div class="col-sm-3">
                       <label >Grade </label>
